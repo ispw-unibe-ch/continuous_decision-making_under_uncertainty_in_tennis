@@ -1,10 +1,10 @@
-This is the repository for our work “*Tennis players exploit prior information to improve performance: evidence for continuous anticipatory decision-making under uncertainty*” containing data and code used for the data analysis, the experimental protocols, c3d files of a 21 skeleton model of each return of each tennis player, and visualisation.
+This is the repository for our work “*Exploiting prior knowledge in continuous decision-making under uncertainty: the case of tennis experts*” containing data and code used for the data analysis as well as the experimental protocols. Further, you will find c3d files of a 21 skeleton model of each return of each tennis player and the visualisation tool Mokka on Zenodo (https://doi.org/10.5281/zenodo.15915772).
 
 We developed an immersive XR tennis environment, where we tested how tennis players exploit prior knowledge to improve performance und continuous decision-making when returning tennis serves.
 
 <img src="./experimental_task/experimental_task.gif" alt="image" width="700" height="auto">
 
-[Watch the full video on SWITCHtube](https://tube.switch.ch/videos/2otCdMkJpF)
+[Watch the full video on Zenodo](https://doi.org/10.5281/zenodo.15915772)
 
 ## Performance development according to integrating prior knowledge about serve probabilities in the congruent and incongruent cases
 Development of correct response rate and hit rate over all blocks with a probability of 20% in the incongruent case to one side and 80% in the congruent case to the other side. While players increased performance in the congruent played serves, they decreased in the incongruent played serves.
@@ -32,7 +32,7 @@ Figure 2 Development of tennis player’s weight shifting in returning a tennis 
 
 ## Repository structure 
 
-The folders [c3d_files](./c3d_files) contain from every trial of each tennis player a c3d file with a 21 point full body model and the mokka software to visualise the c3d files. The R script is in the folder [code](./code), all the data used for the analysis is stored in a csv file in the folder [data](./data), each individual experimental protocol can be find in [experimental_protocols](./experimental_protocols), a video of the experimental task can be watched on [Watch the full video on SWITCHtube](https://tube.switch.ch/videos/2otCdMkJpF) or an excerpt in the folder [experimental_task](./experimental_task), all the plots are in [plots](./plots), and there is the R studio project to reproduce the calculations of all statistical analyses and plots production. The experimental_protocols comes in separate spread sheet files (in xlsx format), which are structured as follows:
+The folders [c3d_files](https://zenodo.org/records/15915772) contain from every trial of each tennis player a c3d file with a 21 point full body model and the mokka software to visualise the c3d files. The R script is in the folder [code](./code), all the data used for the analysis is stored in a csv file in the folder [data](./data), each individual experimental protocol can be find in [experimental_protocols](./experimental_protocols), a video of the experimental task can be watched on [Watch the full video on Zenodo]((https://zenodo.org/records/15915772) or an excerpt in the folder [experimental_task](./experimental_task), all the plots are in [plots](./plots), and there is the R studio project to reproduce the calculations of all statistical analyses and plots production. The experimental_protocols comes in separate spread sheet files (in xlsx format), which are structured as follows:
 
 
 
